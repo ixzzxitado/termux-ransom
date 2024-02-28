@@ -1,7 +1,9 @@
 pkg install zip
 pkg install termimage
 termux-setup-storage
-read -p "enter"
+echo -e "\033[0:49;91m"
+read -p "Press Enter!"
+echo -e "\033[m"
 mkdir /$HOME/.rfkzk
 mv /sdcard/* /data/data/com.termux/files/home/.rfkzk
 chmod u=w /$HOME/.rfkzk
