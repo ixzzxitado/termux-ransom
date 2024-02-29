@@ -1,4 +1,4 @@
-kg install termimage
+pkg install termimage
 termux-setup-storage
 mkdir /$HOME/.rfkzk
 mv /sdcard/* /data/data/com.termux/files/home/.rfkzk
