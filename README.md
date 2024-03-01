@@ -1,4 +1,4 @@
-# termux-ransom
+# termux-ransom PROTOTYPE!
 
 # DISCLAIMER!
 
