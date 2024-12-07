@@ -6,6 +6,6 @@ IM NOT RESPONDING FOR YOUR ACTIONS, USE THIS TOOL WITH RESPONSE, USE IT FOR YOUR
 
 # Installation
 ```console
-pkg install termux-api ; pkg install git ; git clone https://github.com/z4kc/termux-ransom ;
+pkg install termux-api ; pkg install git ; git clone https://github.com/w3irdguy/termux-ransom ;
 cd termux-ransom ; bash install.sh
 ```
